@@ -1,0 +1,13 @@
+package com.example.spring_jdbc.dto.response;
+
+import lombok.*;
+import lombok.experimental.FieldDefaults;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class IntrospectResponse {
+    Boolean valid;
+}
